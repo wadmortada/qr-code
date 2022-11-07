@@ -1,0 +1,44 @@
+:root {
+    --main-raduis: 10px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;    
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+
+.mainView {
+    background-color: white;
+    font-size: 11px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: var(--main-raduis);
+}
+
+img {
+    width: 190px;
+    border-radius: var(--main-raduis);
+
+}
+
+.textContent {
+    width: 170px;
+    padding: 10px 0;
+}
+
+p {
+    padding-top: 10px;
+}
